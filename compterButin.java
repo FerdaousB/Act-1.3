@@ -32,8 +32,7 @@ import java.util.Scanner;
              System.out.println ("Le resultat est : "+ mult);
              break;
              
-            case 3
- :
+            case 3 :
              System.out.println ("Veuillez saisir un nombre: \n");
              a = scanner.nextInt( );
              System.out.println ("Veuillez saisir un deuxieme nombre: \n");
@@ -45,9 +44,12 @@ import java.util.Scanner;
              
              System.out.println ("Le resultat est : "+ div);
              break;
-        
+            
+             case 4 :
+             System.out.println (" Merci, a bientot l'ami ! \n");
+             break;
             
              
            }
-         } while ( choix != 3);       }
+         } while ( choix != 4);       }
      }
