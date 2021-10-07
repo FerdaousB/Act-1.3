@@ -31,13 +31,13 @@ public class ageApprentis{
         
           int[] ageArray = {45, 54, 23, 32, 64, 46, 28, 82};
   
-          System.out.println("**** Avant le tri par selection *****");
+          System.out.println("Lage des apprentis non triee");
           displayTab(ageArray);
 
-          //tri d un tableau avec l algorithme de tri par selection
+          
           triAge(ageArray);
  
-          System.out.println("**** Apres le tri par selection ****");  
+          System.out.println("Lage des apprentis triee");  
           displayTab(ageArray); 
      } 
 }
